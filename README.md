@@ -1,4 +1,4 @@
-Для проекта понадобятся NodeJs, npm, WebBrowser.
+Для проекта понадобятся NodeJs, npm, WebBrowser, github.
 
 1) Сначало клонируем репозиторий в нужную папку любым удобным способом ( Например  - git clone https://github.com/Mikhail-wd/html_webpack.git ).
 2) Переходим в папку проекта командой cd html_webpack

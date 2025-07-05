@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Webpack Example App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Webpack Example Description" />
+</head>
+
+<body>
+    <div class="info-block block-size-regulator">
+        <div class="info-block__adress">
+            <p><img alt="marker" id="info_marker" /><span>Сайлент-Хилл</span></p>
+            <p><img alt="cellphone" id="info_phone-img" /><span>+7 555 555-37-50</span></p>
+        </div>
+        <div class="info-block__work-time">
+            <p>Ежедневно 9:00 - 21:00</p>
+        </div>
+        <ul class="info-block__compet">
+            <li>Доставка</li>
+            <li>Оплата</li>
+            <li>Контакты</li>
+        </ul>
+    </div>
+
+    <div class="info-block-mobile block-size-regulator">
+        <div class="header-lang-mobile">
+            <img alt="header-lang_icon" id="infoblock_lang-icon">
+            <span class="header-lang--selected">RU</span>
+            |
+            <span>EN</span>
+        </div>
+        <div class="info-block__adress">
+            <p><img alt="cellphone" id="info_phone-img2" /><span>+7 555 555-37-50</span></p>
+        </div>
+    </div>
+
+    <header class="header block-size-regulator" id="header">
+        <div class="header-logo">
+            <img id="logo" alt="logo">
+        </div>
+        <div class="header-search">
+            <div class="header-search__main-controll">
+                <div class="header-search__burger-dt" id="header-search__burger-dt"><img alt="burger-dt"
+                        id="burger-desktop"></div>
+                <div class="header-search__main-controll_wrapper">
+                    <input type="text" placeholder="Поиск товаров...">
+                    <button>
+                        Найти
+                    </button>
+                </div>
+                <div class="header-search__social-wrapper">
+                    <div id="header-wats"><img alt="" id="header_search__social-wrapper-wats"></div>
+                    <div id="header-telegramm"><img alt="" id="header_search__social-wrapper-tg"></div>
+                </div>
+            </div>
+            <div class="header-search__dropdowns">
+                <div id="special"><img alt="dropdown-image1" id="dropdown-image1" /><span>Акции</span>
+                </div>
+                <div id="hot"><img alt="dropdown-image2" id="dropdown-image2" /><span>Горячее предложение</span></div>
+                <div><img alt="dropdown-image3" id="dropdown-image3" /><span>Подарочные наборы</span></div>
+                <div id="events">
+                    <img alt="dropdown-image4" id="dropdown-image4" />
+                    <span>События</span>
+                    <div class="events-dropdown">
+                        <div class="events-dropdown-content">
+                            <p>ИгроМИР</p>
+                            <p>Мероприятия</p>
+                            <p>Мастер-классы</p>
+                        </div>
+                    </div>
+                </div>
+                <div><img alt="dropdown-image5" id="dropdown-image5" /><span>Наши бренды</span></div>
+            </div>
+        </div>
+        <div class="header-lang">
+            <img alt="header-lang_icon" id="header-lang_icon">
+            <span class="header-lang--selected">RU</span>
+            |
+            <span>EN</span>
+        </div>
+        <div class="header-options">
+            <div id="buttons-fav"><img id="header-options__buttons-fav" alt="buttons-fav"></div>
+            <div id="buttons-hunter"><img id="header-options__buttons-archer" alt="buttons-archer"></div>
+            <div id="buttons-chest"><img id="header-options__buttons-chest" alt="buttons-chest"></div>
+            <button>
+                <span>+</span>
+                <span>Собрать компьютер</span>
+            </button>
+        </div>
+    </header>
+
+    <header class="header-mobile">
+        <div class="header-search__main-controll-mobile">
+            <div>
+                <div>
+                    <div class="mobile-button" id="burger-mobile-button">
+                        <img alt="picture" id="burger_mobile">
+                    </div>
+                    <div class="mobile-button button-extra-bg hidden" id="burger-mobile-button-close">
+                        <img alt="picture" id="cross">
+                    </div>
+                    <div class="mobile-button">
+                        <img alt="picture" id="hunter_mobile" class="mobile-button_img">
+                    </div>
+                </div>
+                <div class="header-logo-mobile">
+                    <img id="logo1" alt="logo">
+                </div>
+                <div>
+                    <div class="mobile-button">
+                        <img alt="picture" id="fav_mobile">
+                    </div>
+                    <div class="mobile-button">
+                        <img alt="picture" id="chest_mobile" class="mobile-button_img">
+                        <div class="buttons_number ">20</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-search__main-controll_wrapper">
+                <input type="text" placeholder="Поиск товаров...">
+                <button class="mobile-button">
+                    <img alt="picture" id="spy_glass">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <header class="header-scroll block-size-regulator" id="header-scroll">
+        <div class="header-logo">
+            <img id="logo-scroll-alter" alt="logo">
+        </div>
+        <div class="header-search">
+            <div class="header-search__main-controll">
+                <div class="header-search__burger-dt"><img alt="burger-dt" id="burger-desktop-scroll-alter"></div>
+                <div class="header-search__main-controll_wrapper">
+                    <input type="text" placeholder="Поиск товаров...">
+                    <button>
+                        Найти
+                    </button>
+                </div>
+                <div class="header-search__social-wrapper">
+                    <div id="header-wats-scroll-alter"><img alt="" id="header_search__social-wrapper-wats-scroll-alter">
+                    </div>
+                    <div id="header-telegramm-scroll-alter"><img alt=""
+                            id="header_search__social-wrapper-tg-scroll-alter"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-lang-alter">
+            <img alt="header-lang_icon" id="header-lang_icon-scroll-alter">
+            <span class="header-lang--selected">RU</span>
+            |
+            <span>EN</span>
+        </div>
+        <div class="header-options">
+            <div id="buttons-fav-scroll-alter"><img id="header-options__buttons-fav-scroll-alter" alt="buttons-fav">
+            </div>
+            <div id="buttons-hunter-scroll-alter"><img id="header-options__buttons-archer-scroll-alter"
+                    alt="buttons-archer"></div>
+            <div id="buttons-chest-scroll-alter"><img id="header-options__buttons-chest-scroll-alter"
+                    alt="buttons-chest"></div>
+        </div>
+    </header>
+
+    <div class="hidden catalog" id="catalog-dropdown">
+        <div class="catalog__mainlist">
+            <p>
+                <img alt="" id="phone_blue" />
+                <span>Смартфоны и гаджеты</span>
+                <img class="arrow_element" alt="arrow">
+            </p>
+            <p><img alt="" id="laptop_blue" /><span>Ноутбуки и компьютеры</span>
+                <img class="arrow_element" alt="arrow">
+            </p>
+            <p><img alt="" id="tv_blue" /><span>Телевизоры и цифровой ТВ</span>
+                <img class="arrow_element" alt="arrow">
+            </p>
+            <p><img alt="" id="speaker_blue" /><span>Аудиотехника</span>
+                <img class="arrow_element" alt="arrow">
+            </p>
+            <p><img alt="" id="flame_blue" /><span>Акции</span>
+            </p>
+            <p><img alt="" id="new_blue" /><span>Новинки</span>
+            </p>
+        </div>
+        <div class="catalog__sublist">
+            <div class="catalog__mainlist__phone">
+                <h1>Смартфоны</h1>
+                <ul class="catalog__sublists">
+                    <li>Apple iPhone <span>123</span></li>
+                    <li>Смартфоны <span>123</span> <img class="arrow_element" alt="arrow"></li>
+                    <li>iPhone 16<span>123</span></li>
+                    <li>Складные <span>123</span></li>
+                    <li>realme <span>123</span></li>
+                    <li>Huawei Mate X6 <span>123</span></li>
+                    <li>Кнопочные <span>123</span></li>
+                    <li>Домашние <span>123</span></li>
+                    <li>Samsung <span>123</span></li>
+                </ul>
+            </div>
+            <div class="catalog__mainlist__gadgets">
+                <h1>Гаджеты</h1>
+                <ul class="catalog__sublists">
+                    <li>Смарт-часы </li>
+                    <li>Смарт-кольца </li>
+                    <li>Наушники</li>
+                    <li>Гарнитуры </li>
+                    <li>Портативное аудио</li>
+                    <li>Умные гаджеты</li>
+                    <li>Очки VR 49</li>
+                    <li>Для блогеров </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog-mobile hidden" id="catalog-dropdown-mobile">
+        <div class="cataloc-mobile__info">
+            <div class="cataloc-mobile__info-leftcontent">
+                <p><img alt="marker" id="info_marker-mobile" /> <span>г.Москва</span></p>
+                <p><img alt="marker" id="clock-mobile" /> <span>Ежедневно 9:00 - 21:00</span></p>
+            </div>
+            <div class="cataloc-mobile__info-rightcontent">
+                <div class="mobile-button button-extra-bg">
+                    <img alt="picture" id="telega-mobile">
+                </div>
+                <div class="mobile-button button-extra-bg">
+                    <img alt="picture" id="whatsup-mobile" class="mobile-button_img">
+                </div>
+            </div>
+        </div>
+        <div class="cataloc-mobile">
+            <ul class="cataloc-mobile_dirlist">
+                <li> <img alt="catalog-img" id="catalog-mobile1" /><span>Каталог</span> <img alt="catalog-mobile_arrow"
+                        class="arrow-right-mobile-alter" />
+                </li>
+                <li> <img alt="catalog-img" id="catalog-mobile2" /><span> Акции</span>
+                </li>
+                <li> <img alt="catalog-img" id="catalog-mobile3" /> <span>Горячее предложение</span> <img
+                        alt="catalog-mobile_arrow" class="arrow-right-mobile-alter" />
+                </li>
+                <li> <img alt="catalog-img" id="catalog-mobile4" /> <span>Подароынче наборы </span><img
+                        alt="catalog-mobile_arrow" class="arrow-right-mobile-alter" />
+                </li>
+                <li> <img alt="catalog-img" id="catalog-mobile5" /><span>События</span> <img alt="catalog-mobile_arrow"
+                        class="arrow-right-mobile-alter" />
+                </li>
+                <li> <img alt="catalog-img" id="catalog-mobile6" /> <span>Наши бренды</span> </li>
+            </ul>
+            <button class="cataloc-mobile_button-pc">
+                <span>+</span><span>Собрать компьютер</span>
+            </button>
+            <ul class="cataloc-mobile_optionslist">
+                <li>Доставка</li>
+                <li>Оплата</li>
+                <li>Бренды</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content block-size-regulator">
+        <div class="main-conten__left-content">
+            <h1>Отправляйся в приключения с нашими эпическими лут-корзинами и наборами!</h1>
+            <p>Развивай свои навыки, следуя мудрым стратегиям мастеров, и поднимайся на новый уровень мастерства! С
+                нашей поддержкой каждое твое действие станет частью великого искусства, а победы — результатом точного
+                плана и безупречной подготовки!</p>
+            <button class="main-content__button-catalog">
+                В каталог
+            </button>
+        </div>
+        <div class="main-conten__right-content">
+            <img alt="controller" id="main-content__controller">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+.main-content__button-catalog {
+    padding: 16px 40px;
+    font-size: 15px;
+    font-family: "Maza";
+    border-radius: 8px;
+    background-color: white;
+    color: var(--content-button);
+    border: none;
+}
+
+.main-content {
+    color: white;
+    overflow: hidden;
+    background-image: var(--gradient);
+    font-family: "Tenor";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-shrink: 10;
+    height: 1600px;
+}
+
+.main-conten__right-content>img {
+    margin-top: -90px;
+    margin-left: 60px;
+}
+
+.main-conten__left-content {
+    margin-top: 84px;
+    max-width: 49%;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    justify-content: start;
+    align-items: start;
+    flex-grow: 10;
+}
+
+.main-conten__left-content>h1 {
+    font-size: 32px;
+}
+
+.main-conten__left-content>p {
+    font-size: 18px;
+}
+
+@media screen and (max-width:1372px) {
+    .main-content {
+        box-sizing: border-box;
+    }
+
+    .main-conten__left-content {
+        min-width: 70%;
+        max-width: 50%;
+        margin-left: 0px;
+    }
+
+    .main-conten__right-content>img {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-content {
+        box-sizing: border-box;
+        padding: 34px 15px 0px 15px;
+        color: white;
+        overflow: hidden;
+        background-image: var(--gradient);
+        font-family: "Tenor";
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-shrink: 10;
+        height: auto;
+    }
+
+    .main-conten__left-content {
+        margin-top: 0px;
+        max-width: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        justify-content: start;
+        align-items: start;
+        flex-grow: 10;
+        height: 300px;
+        z-index: 11;
+    }
+
+    .main-conten__left-content>h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .main-conten__left-content>p {
+        font-size: 14px;
+    }
+
+    #main-content__controller {
+        position: relative;
+        top: -120px;
+        right: 50px;
+        transform: scale(0.8);
+        z-index: 10;
+
+    }
+}
